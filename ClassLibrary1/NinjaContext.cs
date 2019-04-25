@@ -1,6 +1,8 @@
 ﻿using NinjaDomain.Classes;
 using System.Data.Entity;
 
+// This defines our database with DbSet referring to the Db's future tables.
+
 namespace NinjaDomain.DataModel
 {
     public class NinjaContext : DbContext
